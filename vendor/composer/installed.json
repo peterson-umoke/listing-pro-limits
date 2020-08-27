@@ -1,0 +1,98 @@
+[
+    {
+        "name": "cmb2/cmb2",
+        "version": "v2.7.0",
+        "version_normalized": "2.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CMB2/CMB2.git",
+            "reference": "438c26dda7ac110d0741448d65614b3ec6379034"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CMB2/CMB2/zipball/438c26dda7ac110d0741448d65614b3ec6379034",
+            "reference": "438c26dda7ac110d0741448d65614b3ec6379034",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">5.2.4"
+        },
+        "require-dev": {
+            "apigen/apigen": "4.1.2",
+            "nette/utils": "2.5.3",
+            "phpunit/phpunit": "6.5.13"
+        },
+        "suggest": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2020-01-21T17:49:50+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Justin Sternberg",
+                "email": "justin@dsgnwrks.pro",
+                "homepage": "https://dsgnwrks.pro",
+                "role": "Developer"
+            },
+            {
+                "name": "WebDevStudios",
+                "email": "contact@webdevstudios.com",
+                "homepage": "https://github.com/WebDevStudios",
+                "role": "Developer"
+            }
+        ],
+        "description": "CMB2 is a metabox, custom fields, and forms library for WordPress that will blow your mind.",
+        "homepage": "https://github.com/CMB2/CMB2",
+        "keywords": [
+            "metabox",
+            "plugin",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "giacocorsiglia/wordpress-stubs",
+        "version": "v5.1.1",
+        "version_normalized": "5.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/GiacoCorsiglia/wordpress-stubs.git",
+            "reference": "1c6f011f5c241bab7293315d7fb7fca27fe79473"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/GiacoCorsiglia/wordpress-stubs/zipball/1c6f011f5c241bab7293315d7fb7fca27fe79473",
+            "reference": "1c6f011f5c241bab7293315d7fb7fca27fe79473",
+            "shasum": ""
+        },
+        "require-dev": {
+            "ext-gettext": "*",
+            "giacocorsiglia/stubs-generator": "^0.5.0",
+            "johnpbloch/wordpress": "5.1.1",
+            "php": "^7.1"
+        },
+        "time": "2019-03-13T21:16:05+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Giaco Corsiglia",
+                "email": "GiacoCorsiglia@gmail.com"
+            }
+        ],
+        "description": "WordPress function, class, and global variable declaration stubs for easier static analysis.",
+        "homepage": "https://github.com/GiacoCorsiglia/wordpress-stubs",
+        "keywords": [
+            "static analysis",
+            "wordpress"
+        ]
+    }
+]
