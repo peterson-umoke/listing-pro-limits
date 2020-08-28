@@ -13,9 +13,9 @@
  * @package           Location_Limits
  *
  * @wordpress-plugin
- * Plugin Name:       Listing Pro Location Limits
+ * Plugin Name:       Listing Pro Location Limits With Defaults
  * Plugin URI:        https://github.com/peterson-umoke/listing-pro-limits
- * Description:       This is a plugin that adds limits to the locations for pricing plans and used to control what the number of locations a user can select
+ * Description:       This is a plugin that adds a default limits to the locations for pricing plans, and cant be adjusted by the admin
  * Version:           1.0.0
  * Author:            P.N.U.M.A
  * Author URI:        #
@@ -96,14 +96,14 @@ class umk_limit_locations
             'id' => $this->id,
             'title' => __('Location Limit', 'location-limits'),
             'object_types' => array('price_plan'), // Post type
-            'context' => 'side',
-            'priority' => 'high',
+            'context' => 'normal',
+            'priority' => 'low',
             'show_names' => true, // Show field names on the left
         ));
 
         $cmb->add_field(array(
-            'name' => __('Location Limits', 'location-limits'),
-            'desc' => __('Enter the limit of locations for this pricing plan', 'location-limits'),
+            'name' => __('Default Location Limits', 'location-limits'),
+            'desc' => __('This limits cant be adjusted.', 'location-limits'),
             'id' => 'location_limit_number',
             'type' => 'text',
             "default" => 5,
@@ -111,7 +111,6 @@ class umk_limit_locations
                 "type" => "number",
                 "readonly" => "true",
             ],
-//            'default_cb' => array($this, 'default_metabox_value'), // function should return a bool value
         ));
     }
 
