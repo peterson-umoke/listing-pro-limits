@@ -110,9 +110,7 @@ class umk_limit_locations
             "attributes" => [
                 "type" => "number",
                 "min" => 1,
-                "max" => 5,
             ],
-//            'default_cb' => array($this, 'default_metabox_value'), // function should return a bool value
         ));
     }
 
